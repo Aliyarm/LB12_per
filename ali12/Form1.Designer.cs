@@ -103,7 +103,6 @@ namespace ali12
             this.label2.Size = new System.Drawing.Size(10, 13);
             this.label2.TabIndex = 6;
             this.label2.Text = "r";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // textBox2
             // 
@@ -122,7 +121,6 @@ namespace ali12
             this.label3.Size = new System.Drawing.Size(13, 13);
             this.label3.TabIndex = 8;
             this.label3.Text = "g";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // textBox3
             // 
@@ -180,7 +178,6 @@ namespace ali12
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
